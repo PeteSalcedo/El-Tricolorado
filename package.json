@@ -4,6 +4,7 @@
   "description": "A beautiful webapp for the national soccer league of Mexico",
   "main": "index.js",
   "dependencies": {
+    "@babel/runtime": "7.0.0-beta.55",
     "@material-ui/core": "1.2.0",
     "d3-ease": "1.0.3",
     "firebase": "5.0.4",
