@@ -12,7 +12,7 @@ class Header extends Component {
                 boxShadow: 'none',
                 padding:'10px 0',
                 borderBottom: '2px solid #00285e'
-            }}></AppBar>
+            }}>
                     <Toolbar style={{display:'flex'}}>
                     <div style={{flexGrow: 1}}>
                         <div className="header_logo">
@@ -24,8 +24,8 @@ class Header extends Component {
                             />
                         </div>  
                     </div>
-            
-     
+                    </Toolbar>
+            </AppBar>
         )
     }
 }
